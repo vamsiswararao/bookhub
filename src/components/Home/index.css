@@ -1,0 +1,75 @@
+.home-container {
+  background-color: #e5e5e5;
+  height: 100%;
+}
+
+.response-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.books-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.books_top_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-rated-books-list {
+  margin: 50px;
+  color: black;
+}
+
+.bg-slider-container {
+  display: none;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-slider-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.sm-slider-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-slider-container {
+    display: none;
+    flex-direction: column;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.home-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.find-book-btn {
+  background-color: #0284c7;
+  border-radius: 4px;
+  height: 32px;
+  width: 104px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}

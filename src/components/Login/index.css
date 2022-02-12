@@ -1,0 +1,90 @@
+.login-app-container {
+  min-height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.sm-img {
+  height: 250px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-self: center;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+.left-sm-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .left-sm-container {
+    display: none;
+    width: 50%;
+  }
+}
+.left-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .left-container {
+    display: flex;
+    width: 50%;
+  }
+}
+
+.img {
+  height: 720px;
+  width: 800px;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 50%;
+}
+
+.label {
+  color: #5a7184;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.logo {
+  height: 40px;
+}
+
+.login-btn {
+  background-color: #0284c7;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  height: 34px;
+  color: #ffffff;
+}
+
+.error-msg {
+  color: red;
+}

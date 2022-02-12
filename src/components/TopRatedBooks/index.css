@@ -1,0 +1,41 @@
+.book-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-pic {
+  height: 230px;
+}
+
+.book-list-link-container {
+  text-decoration: none;
+}
+
+.home-title-text {
+  color: #334155;
+  font-size: 16px;
+  justify-self: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-title-text {
+    color: #334155;
+    font-size: 20px;
+    justify-self: center;
+    align-self: center;
+  }
+}
+.home-author-name {
+  color: #475569;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-author-name {
+    color: #475569;
+    font-size: 16px;
+  }
+}

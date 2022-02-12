@@ -1,0 +1,16 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-home {
+  background-color: #0284c7;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  height: 34px;
+  color: #ffffff;
+}

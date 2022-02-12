@@ -1,0 +1,44 @@
+.books-list-container {
+  display: flex;
+  width: 350px;
+  height: 200px;
+  margin: 6px;
+  list-style-type: none;
+}
+
+.book-img {
+  height: 200px;
+}
+
+.books-details-container {
+  margin-left: 10px;
+}
+
+.link-container {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+}
+
+.book-title {
+  font-size: 20px;
+  color: #334155;
+  font-weight: 700;
+}
+
+.book-author {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  color: #fbbf24;
+}

@@ -1,0 +1,41 @@
+.selected-list {
+  list-style-type: none;
+}
+
+.active-select-name {
+  background-color: #0284c7;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .active-select-name {
+    background-color: transparent;
+    margin-right: 10px;
+    color: #0284c7;
+  }
+}
+
+.select-name {
+  color: none;
+  list-style-type: none;
+  height: 34px;
+  min-width: 58px;
+  border: 2px solid #0284c7;
+  outline: none;
+  padding: 10px;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .select-name {
+    color: none;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+  }
+}
